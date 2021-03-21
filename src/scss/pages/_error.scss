@@ -1,0 +1,31 @@
+.error {
+  width: 70vw;
+  max-width: 40rem;
+  padding: 5rem 0;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  &__title {
+    font-size: 1.75rem;
+    margin: 1rem 0 2rem 0;
+    text-transform: capitalize;
+  }
+  &__btn {
+    font-size: 0.9rem;
+    background-color: #476a2e;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: 300;
+    padding: 0.45rem 0.8rem;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    &:hover {
+      background-color: #d4e6a5;
+      color: #476a2e;
+    }
+  }
+}

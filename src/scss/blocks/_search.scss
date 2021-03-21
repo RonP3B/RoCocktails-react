@@ -1,0 +1,29 @@
+.search {
+  margin-top: 1rem;
+  padding-top: 5rem;
+  &__container {
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 4px;
+    width: 70vw;
+    max-width: 40rem;
+    margin: 0 auto;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    color: #476a2e;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+  }
+  &__label {
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  &__input {
+    border: transparent;
+    border-radius: 5px;
+    background-color: #f1f5f8;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #476a2e;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 85vw;
+    max-width: 1170px;
+  }
+  &__img {
+    max-width: 100%;
+    width: 12rem;
+  }
+  &__links {
+    @include reset-list;
+    a {
+      text-decoration: none;
+      color: #000;
+      margin-right: 0.3rem;
+      padding: 0.15rem 0.25rem;
+      font-size: 1.2rem;
+      transition: color 0.3s linear;
+      font-weight: 600;
+      text-transform: capitalize;
+      &:hover {
+        color: #476a2e;
+      }
+    }
+  }
+}

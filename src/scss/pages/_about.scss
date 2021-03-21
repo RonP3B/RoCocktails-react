@@ -1,0 +1,15 @@
+.about {
+  width: 70vw;
+  max-width: 40rem;
+  padding: 5rem 0;
+  margin: 0 auto;
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 3.5rem 0;
+    text-transform: capitalize;
+  }
+  &__text {
+    line-height: 2;
+  }
+}

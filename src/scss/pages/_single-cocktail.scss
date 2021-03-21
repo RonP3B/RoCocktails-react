@@ -1,0 +1,60 @@
+.cocktail {
+  text-align: center;
+  padding: 5rem 0;
+  text-transform: capitalize;
+  &__btn {
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+  }
+  &__title {
+    font-size: 2rem;
+    margin: 2rem 0 3.5rem 0;
+  }
+  &__info {
+    margin: 0 auto;
+    width: 85vw;
+    max-width: 1440px;
+    text-align: left;
+  }
+
+  &__drink {
+    padding-top: 2rem;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-weight: bolder;
+      letter-spacing: 0;
+      line-height: 1.8;
+      &:last-child span {
+        margin-right: 1rem;
+      }
+    }
+
+    &__data {
+      padding: 0.25rem 0.5rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      background-color: #d4e6a5;
+      color: #476a2e;
+      border-radius: 0.25rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__image {
+    img {
+      border-radius: 0.25rem;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 980px) {
+    &__info {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      column-gap: 3rem;
+      align-items: center;
+    }
+  }
+}

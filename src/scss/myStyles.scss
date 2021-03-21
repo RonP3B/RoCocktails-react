@@ -1,0 +1,12 @@
+@import "base/body.scss";
+
+@import "mixins/reset-list.scss";
+
+@import "blocks/navbar";
+@import "blocks/search";
+@import "blocks/loader";
+@import "blocks/cocktails";
+
+@import "pages/about";
+@import "pages/error";
+@import "pages/single-cocktail";
